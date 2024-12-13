@@ -1,15 +1,15 @@
 Projeto de Teste Automatizado com Playwright
 
-DESCRIÇÃO
+*DESCRIÇÃO*
 Este repositório contém uma Prova de Conceito (POC) de automação de testes web para validar o fluxo de cadastro e pesquisa de produtos em um site público de e-commerce fictício, utilizando o Playwright. 
 A solução foi projetada com foco na arquitetura Page Object Model (POM), garantindo manutenibilidade e organização.
 
-TECNOLOGIAS UTILIZADAS
+*TECNOLOGIAS UTILIZADAS*
 - Playwright: Framework de automação de testes.
 - JavaScript: Linguagem de programação utilizada para escrever os testes.
 - Node.js: Ambiente de execução.
 
-FLUXO TESTADO
+*FLUXO TESTADO*
 
 O projeto cobre os seguintes cenários:
 
@@ -23,11 +23,11 @@ O projeto cobre os seguintes cenários:
 
 5 - Finalização de Pedido: Preenchimento de dados de checkout e finalização do pedido.
 
-ESTRUTURA DO PROJETO
+*ESTRUTURA DO PROJETO*
 
 /desafioAuvo
 
- pages
+pages
  
     cart.page.js           # Manipulação do carrinho de compras
    
@@ -53,7 +53,7 @@ ESTRUTURA DO PROJETO
  
  test-results               # Resultados gerados pelos testes
 
-DETALHE DOS ARQUIVOS
+*DETALHE DOS ARQUIVOS*
 
 pages/cart.page.js
 
@@ -101,7 +101,7 @@ Configurações do Playwright para execução dos testes:
 
   ° projects: Configuração para navegadores (Chromium, Firefox, WebKit).
 
-INSTALAÇÃO E EXECUÇÃO
+*INSTALAÇÃO E EXECUÇÃO*
 
 1 - Clone o repositório
 
@@ -117,7 +117,7 @@ INSTALAÇÃO E EXECUÇÃO
 
     ° npx playwright test --ui
 
-DECISÕES DE DESIGN
+*DECISÕES DE DESIGN*
 
   - Page Object Model (POM): Implementado para separar a lógica dos elementos da interface dos cenários de teste, facilitando a manutenção.
   
@@ -125,4 +125,4 @@ DECISÕES DE DESIGN
   
   - Relatório em HTML: Implementado para melhor visualização dos resultados
 
- Desenvolvido por: Dimitri Barros
+*Desenvolvido por: Dimitri Barros*
