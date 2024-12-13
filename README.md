@@ -20,19 +20,21 @@ O projeto cobre os seguintes cenários:
 
 ESTRUTURA DO PROJETO
 /desafioAuvo
-├── pages
-│   ├── cart.page.js           # Manipulação do carrinho de compras
-│   ├── checkout.page.js       # Manipulação do fluxo de checkout
-│   ├── login.page.js          # Manipulação do login
-│   └── products.page.js       # Manipulação dos produtos
-├── tests
-│   └── e2e.spec.js            # Especificações de teste E2E
-├── node_modules               # Dependências do Node.js
-├── .gitignore                 # Arquivos e pastas a serem ignorados pelo Git
-├── package.json               # Configuração e dependências do projeto
-├── package-lock.json          # Lockfile para consistência de dependências
-├── playwright.config.js       # Configuração do Playwright
-└── test-results               # Resultados gerados pelos testes
+ pages
+   cart.page.js           # Manipulação do carrinho de compras
+   checkout.page.js       # Manipulação do fluxo de checkout
+   login.page.js          # Manipulação do login
+   products.page.js       # Manipulação dos produtos
+   
+ tests
+   e2e.spec.js            # Especificações de teste E2E
+   
+ node_modules               # Dependências do Node.js
+.gitignore                 # Arquivos e pastas a serem ignorados pelo Git
+ package.json               # Configuração e dependências do projeto
+ package-lock.json          # Lockfile para consistência de dependências
+ playwright.config.js       # Configuração do Playwright
+ test-results               # Resultados gerados pelos testes
 
 DETALHE DOS ARQUIVOS
 
