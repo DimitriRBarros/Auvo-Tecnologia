@@ -13,9 +13,13 @@ FLUXO TESTADO
 O projeto cobre os seguintes cenários:
 
 1 - Login: Autenticação na aplicação com credenciais fornecidas.
+
 2 - Navegação e Pesquisa: Acesso à página de produtos e pesquisa de itens.
+
 3 - Validação do Produto: Seleção e verificação do título, preço e descrição do produto.
+
 4 - Adicionar ao Carrinho e Checkout: Adição do produto ao carrinho, verificação e progresso para a tela de checkout.
+
 5 - Finalização de Pedido: Preenchimento de dados de checkout e finalização do pedido.
 
 ESTRUTURA DO PROJETO
