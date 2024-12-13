@@ -10,6 +10,7 @@ TECNOLOGIAS UTILIZADAS
 - Node.js: Ambiente de execução.
 
 FLUXO TESTADO
+
 O projeto cobre os seguintes cenários:
 
 1 - Login: Autenticação na aplicação com credenciais fornecidas.
@@ -23,7 +24,9 @@ O projeto cobre os seguintes cenários:
 5 - Finalização de Pedido: Preenchimento de dados de checkout e finalização do pedido.
 
 ESTRUTURA DO PROJETO
+
 /desafioAuvo
+
  pages
  
    cart.page.js           # Manipulação do carrinho de compras
