@@ -1,6 +1,7 @@
 Projeto de Teste Automatizado com Playwright
 
 *DESCRIÇÃO*
+
 Este repositório contém uma Prova de Conceito (POC) de automação de testes web para validar o fluxo de cadastro e pesquisa de produtos em um site público de e-commerce fictício, utilizando o Playwright. 
 A solução foi projetada com foco na arquitetura Page Object Model (POM), garantindo manutenibilidade e organização.
 
